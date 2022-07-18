@@ -166,3 +166,41 @@ az group delete --name <>RG-your-name>
  ```
  
 When you remove a resource group, you delete all the resources that belong to it. There's no option to undelete resources. If you try any of the commands in this article, deleting the resource groups you create cleans up your account.
+ 
+Common Azure CLI commands
+This below list shows some common commands used in the CLI and links to their reference documentation.
+
+
+Resource group	
+ ```
+ az group
+ ```
+ 
+Virtual machines	
+ ```
+ az vm
+ ```
+Storage accounts	
+ ```
+ az storage account
+ ```
+ 
+Key Vault	
+ ```
+ az keyvault
+ ```
+ 
+Web applications	
+ ```
+ az webapp
+ ```
+ 
+SQL databases	
+ ```
+ az sql server
+ ```
+ 
+CosmosDB	
+ ```
+ az cosmosdb
+ ```
