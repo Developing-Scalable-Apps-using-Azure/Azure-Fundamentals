@@ -162,7 +162,7 @@ az storage account create --resource-group <RG-your-name> --name <strg-your-name
 To remove a resource group, run the az group delete command:
 
 ```
-az group delete --name MyResourceGroup
+az group delete --name <>RG-your-name>
  ```
  
 When you remove a resource group, you delete all the resources that belong to it. There's no option to undelete resources. If you try any of the commands in this article, deleting the resource groups you create cleans up your account.
