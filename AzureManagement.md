@@ -129,3 +129,40 @@ az account set --subscription $subscriptionId
  
 <h3>Task 6: Managing resource Groups using Azure CLI</h3 
  
+Create a resource group
+To create a resource group, use the az group create command:
+
+```
+az group create --name <RG-your-name> --location eastus
+```
+ 
+A resource group belongs to a single location. To see all the locations supported in your current subscription, run the az account list-locations command:
+
+```
+az account list-locations
+```
+ 
+To see all the resource groups for your current subscription, use the az group list command:
+
+```
+az group list --output table
+ ```
+ 
+ ```
+**Tip**
+The --output parameter is a global parameter, available for all commands. The table value presents output in a friendly format.
+ ```
+
+When you create a resource, you create it in a resource group. The following example shows a storage account created by using the az storage account create command:
+
+```
+az storage account create --resource-group <RG-your-name> --name <strg-your-name> --location eastus --sku Standard_LRS
+ ```
+ 
+To remove a resource group, run the az group delete command:
+
+```
+az group delete --name MyResourceGroup
+ ```
+ 
+When you remove a resource group, you delete all the resources that belong to it. There's no option to undelete resources. If you try any of the commands in this article, deleting the resource groups you create cleans up your account.
