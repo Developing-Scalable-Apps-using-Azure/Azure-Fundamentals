@@ -54,5 +54,78 @@ Screenshot of BASH error message get-date command not found.
 date
 ```
 
+The Azure CLI is available to install in Windows, macOS and Linux environments. It can also be run in a Docker container and Azure Cloud Shell.
 
+<h3> Task 3: Install Tools</h3
+The current version of the Azure CLI is 2.38.0. For information about the latest release, see the release notes. To find your installed version and see if you need to update, run az version.
 
+Install Azure CLI: 
+[Install on Windows](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows)
+ 
+[Install on macOS](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-macos)
+
+Download and install VS Code
+[VS Code](https://code.visualstudio.com/download)
+ 
+Open Terminal
+ ```
+CTRL+SHIFT+`
+ ```
+ 
+Run the login command.
+ 
+```
+az login
+```
+
+If the CLI can open your default browser, it will initiate authorization code flow and open the default browser to load an Azure sign-in page.
+Sign in with your account credentials in the browser.
+
+<h3>Task 4: Finding commands</h3>
+
+Azure CLI commands are organized as commands of groups. Each group represents an Azure service, and commands operate on that service.
+To search for commands, use az find. For example, to search for command names containing secret, use the following command:
+
+```
+az find secret
+```
+ 
+Use the --help argument to get a complete list of commands and subgroups of a group. For example, to find the CLI commands for working with Network Security Groups (NSGs):
+
+```
+az network nsg --help
+```
+
+Interactive mode
+
+The CLI offers an interactive mode that automatically displays help information and makes it easier to select subcommands. You enter interactive mode with the az interactive command.
+
+```
+az interactive
+```
+ 
+<h3>Task 5: Managing subscriptions using Azure CLI</h3 
+Change the active tenant
+To switch tenants, you need to sign in as a user within the desired tenant. Use az login to change the active tenant and update the subscription list to which you belong.
+
+```
+# sign in with a different tenant
+ 
+az login --tenant <myTenantID>
+```
+ 
+Change the active subscription
+ ```
+ # change the active subscription using the subscription name
+az account set --subscription "<name>"
+
+# change the active subscription using the subscription ID
+az account set --subscription "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+
+# change the active subscription using a variable
+subscriptionId="$(az account list --query "[?isDefault].id" -o tsv)"
+az account set --subscription $subscriptionId
+ ```
+ 
+<h3>Task 6: Managing resource Groups using Azure CLI</h3 
+ 
