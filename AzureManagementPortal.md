@@ -1,6 +1,6 @@
 <h1>Resource Management using Azure Portal</h1>
 
-# Switch and manage directories
+## Switch and manage directories
 
 In the Directories section, you'll see your Current directory (which you're currently signed in to).
 To see a full list of directories to which you have access, select All Directories.
@@ -9,13 +9,13 @@ To switch to a different directory, select the directory that you want to work i
 
 ![image](https://user-images.githubusercontent.com/11691661/179697058-b10636ac-ce1b-4e34-b8fb-53783e60685f.png)
 
-# Subscription Filters
+## Subscription Filters
 ![image](https://user-images.githubusercontent.com/11691661/179697296-7051c167-de04-463c-9434-5eda08615846.png)
 
-# Appearance and Startup
+## Appearance and Startup
 ![image](https://user-images.githubusercontent.com/11691661/179697383-75e4f1f5-f37d-426b-af44-11326cb4ef39.png)
 
-# Language and Region
+## Language and Region
 ![image](https://user-images.githubusercontent.com/11691661/179697533-80e0b861-00df-4f17-9529-e449c4864ff3.png)
 
 # Find your Azure subscription
@@ -30,7 +30,7 @@ Follow these steps to retrieve the ID for a subscription in the Azure portal.
 6. Copy the Subscription ID. You can paste this value into a text document or other location.
 ```
 
-# Find your Azure AD tenant
+## Find your Azure AD tenant
 Follow these steps to retrieve the ID for an Azure AD tenant in the Azure portal.
 
 ```
@@ -42,7 +42,7 @@ Follow these steps to retrieve the ID for an Azure AD tenant in the Azure portal
 6. Copy the Tenant ID. You can paste this value into a text document or other location.
 ```
 
-# Create a new dashboard
+## Create a new dashboard
 
 From the Azure portal menu, select Dashboard. Your default view might already be set to dashboard.
 
