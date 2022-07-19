@@ -196,6 +196,160 @@ D)load balancing
 #### Question 14
 
 ```
-Your company needs to select the appropriate cloud model and category to deploy. Match the cloud model or category with its appropriate description - Public Cloud, Private Cloud, IaaS, PaaS
+Your company needs to select the appropriate cloud model and category to deploy. Match the cloud model or category with its appropriate 
+description - Public Cloud, Private Cloud, IaaS, PaaS
 
+A) Each organization shares the cloud service provider’s infrastructure with the other companies that have subscribed to the cloud.
+B) The organization deploys its own cloud infrastructure, usually behind a firewall.
+C) The cloud service provider hosts the applications on the cloud servers.
+D) The cloud service provider maintains all the hardware required for the cloud.
+```
+
+#### Question 15
+
+```
+You need to propose a budget for cloud services, including selecting the correct cloud service model (PaaS, IaaS, or SaaS). To help coordinate services, you must understand which responsibilities belong to each type of cloud provider and which would belong to your organization.
+
+In each service scenario, which areas are the responsibility of the service provider? Write the appropriate category - SaaS, PaaS, IaaS, On-Premise against each responsibility.
+
+A) Physical Security
+B) Identity and Access Management
+C) Network Controls
+
+```
+
+#### Question 16
+
+```
+Microsoft Azure has datacenters in several locations in North America, Europe, and Asia.
+
+Which of the following statements describes an Azure region?
+
+A)A geographical area containing only one datacenter
+B)A geographical area containing at least one, but potentially multiple, datacenters that are in close proximity and networked together through the Internet
+C)A geographical area containing more than one datacenter in close proximity networked together with a low-latency network
+D)A geographical area containing one or more datacenters networked together with a low-latency network and are in close proximity
+```
+
+#### Question 17
+
+```
+Which of the following are characteristics of a public cloud? Choose three.
+
+A)Only one tenant is supported
+B)Resource pooling
+C)Virtually unlimited storage
+D)Services are always free
+E)Provider manages the network and virtualization software
+```
+
+#### Question 18
+
+```
+Your company needs to increase or decrease resources for a workload. You need to provide additional resources to service a workload or add additional capabilities to manage an increase in demand to the existing resource. The provision of additional resources does not have to be done automatically.
+
+Which cloud feature is needed in this scenario?
+
+A)High availability
+B)Elasticity
+C)Disaster recovery
+D)Fault tolerance
+E)Scalability
+F)Economy of scale
+G)Agility
+```
+
+#### Question 19
+
+```
+You have designed a specific infrastructure in Azure with many virtual machines and virtual networks. You need to create the same configuration for the remaining three environments in the company. You have to be sure that your deployments are consistent.
+
+What will you choose to accomplish this?
+
+A)Azure Resource Manager (ARM) templates
+B)Custom scripts
+C)Desired State Configuration
+D)Chef
+```
+
+#### Question 20
+
+```
+You have been hired by Verigon Inc. who develops web applications. You have an expert team of developers and administrators who build and maintain business-critical web applications. Your team members are well versed with Windows and network administration.
+
+Verigon has recently moved its business-critical web applications to the Azure cloud. Your team wants to perform repeatable testing, management, and administration tasks.
+
+Which of the following tools are BEST for this purpose? (Choose two.)
+
+A)Azure Resource Manager templates
+B)Azure PowerShell
+C)Azure portal
+D)Azure Arc
+E)Azure CLI (command line interface)
+```
+
+#### Question 21
+
+```
+Your organization has recently purchased an Azure subscription to host applications and services in the Azure cloud. They have asked you to learn about the Azure portal and how it can be used effectively.
+
+Which of the following statements are TRUE or FALSE regarding the Azure portal?
+
+A) You can use a graphical user interface to manage your Azure subscription.	
+B) The Azure portal is designed for continuous availability and resiliency. It can be used in every Azure datacenter.	
+C) The Azure portal menu is always visible in flyout mode.	
+D) When the portal menu is in docked mode, it is hidden until you need it.	
+E) You cannot customize the Home page in the Azure portal, but you can choose whether to see Home or Dashboard as your default view.	
+F) You are allowed to customize the Azure Dashboard and share it with others in your organization.
+```
+
+#### Question 22
+
+```
+Which cloud service model will allow an organization to use resources outside of its cloud if there is a spike in demand for an application or resource?
+
+A)Private cloud
+B)Community cloud
+C)Hybrid cloud
+D)Public cloud
+```
+
+#### Question 23
+
+```
+Which of the following are examples of SaaS? (Choose two.)
+
+A)Amazon Web Services Elastic Beanstalk
+B)Google Compute Engine
+C)Google Apps
+D)Salesforce
+E)Microsoft Azure
+```
+
+#### Question 24
+
+```
+Your company needs to automatically or dynamically increase or decrease resources as needed. Resources need to be added or removed automatically to meet future needs, and from the most advantageous geographic location in the cloud. Which cloud feature is needed in this scenario?
+
+A)Scalability
+B)Disaster recovery
+C)Elasticity
+D)Agility
+E)High availability
+F)Fault tolerance
+G)Economy of scale
+```
+
+#### Question 25
+
+```
+Your company is based in Munich, Germany. It has a branch office in the US and has won a bid to develop a cloud solution for the US legal and regulatory services. You are compelled to comply with US regulatory requirements, which states that only US citizens can have access to systems used to develop cloud solutions.
+
+What should you do?
+
+A)Develop a cloud solution from the Germany office using Azure Government.
+B)Develop a cloud solution from the US branch office using the Azure public cloud.
+C)Develop a cloud solution from the Germany office using Azure Germany.
+D)Develop a cloud solution from the US branch office using Azure Government.
+```
 
