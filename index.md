@@ -1,6 +1,6 @@
 # Welcome to the course assessment on Azure Fundamentals (Introduction, Cloud Concepts, Azure Architecture)
 
-This course is composed up of the below sections:
+This aassessment is composed up of the below sections:
 
 ### Section 1 [30 Points]
 Multiple choice Questions
