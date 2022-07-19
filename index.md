@@ -353,3 +353,62 @@ C)Develop a cloud solution from the Germany office using Azure Germany.
 D)Develop a cloud solution from the US branch office using Azure Government.
 ```
 
+#### Question 26
+
+![image](https://user-images.githubusercontent.com/11691661/179747780-0aab656f-051e-4013-9589-91074308e654.png)
+
+```
+Your company has created a structure of management groups and subscriptions. The following diagram shows an example of creating a hierarchy for governance using management groups:
+
+A)NutexCustomRole will be available on any resource group in in the Production management group
+B)NutexCustomRole will be available on any resource group in the Sales Tax management group
+C)NutexCustomRole will be available on any subscription in the Tax management group
+D)NutexCustomRole will be available on any subscription in the Beta management group
+```
+
+#### Question 27
+
+```
+You have been tasked to investigate the types of models for the cloud. Which cloud model is totally owned by the cloud service provider?
+
+A)None of these options
+B)Public cloud
+C)Private cloud
+D)Hybrid cloud
+```
+
+#### Question 28
+
+```
+Your company has to react quickly when cloud services have to rapidly allocate and deallocate resources. These resources need to be provided on demand via self-service so that vast amounts of computing resources can be provisioned in minutes. There will be no manual intervention in provisioning or deprovisioning services. Which cloud feature is needed in this scenario?
+
+A)Scalability
+B)Disaster recovery
+C)Elasticity
+D)Agility
+E)High availability
+F)Fault tolerance
+G)Economy of scale
+```
+
+#### Question 29
+
+```
+Which of the following are true regarding an Azure resource? (Choose two.)
+
+A)A resource can connect to only a resource in that resource group.
+B)Some Azure resources can exist outside a resource group.
+C)Resources in a resource group must be located in the same region as the resource group.
+D)If you apply tags to a resource group, the resources in that resource group do NOT inherit those tags.
+```
+
+#### Question 30
+
+```
+You were tasked with choosing the most appropriate cloud deployment solution for an enterprise workforce that consists mainly of remote employees. You chose an IaaS solution. What is the MOST likely business purpose for your cloud solution?
+
+A)To provide a turnkey solution for email in the cloud
+B)To deploy Azure virtual machines to the company’s employees
+C)To ensure applications used by employees are updated as quickly as possible
+D)To supply on-demand development, testing, delivery, and management of software applications
+```
