@@ -127,6 +127,40 @@ subscriptionId="$(az account list --query "[?isDefault].id" -o tsv)"
 az account set --subscription $subscriptionId
  ```
  
+ Create Management Groups
+ You can create a management group for several of your subscriptions by using the az account management-group create command:
+
+```
+az account management-group create --name <mg-yourname>
+ ```
+ 
+To see all your management groups, use the az account management-group list command:
+
+```
+az account management-group list
+ ```
+ 
+Add subscriptions to your new group by using the az account management-group subscription add command:
+
+```
+az account management-group subscription add --name mg-yourname --subscription "<subscription-name>"
+ ```
+ 
+To remove a subscription, use the az account management-group subscription remove command:
+
+```
+az account management-group subscription remove --name mg-yourname --subscription "My Demos"
+ ```
+ 
+To remove a management group, run the az account management-group delete command:
+
+```
+az account management-group delete --name mg-yourname
+ ```
+ 
+Removing a subscription or deleting a management group doesn't delete or deactivate a subscription.
+ 
+ 
 <h3>Task 6: Managing resource Groups using Azure CLI</h3 
  
 Create a resource group
