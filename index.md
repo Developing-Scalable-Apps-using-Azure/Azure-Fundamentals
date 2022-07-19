@@ -2,14 +2,14 @@
 
 This course is composed up of the below sections:
 
-### Section 1 [50 Points]
+### Section 1 [30 Points]
 Multiple choice Questions
 
 ### Section 2 [10 Points]
 Lab Exercise
 
 ### Time Given
-1.5 Hours
+1 Hour
 
 ## Section 1 - MCQs
 
