@@ -143,13 +143,13 @@ az account management-group list
 Add subscriptions to your new group by using the az account management-group subscription add command:
 
 ```
-az account management-group subscription add --name mg-yourname --subscription "<subscription-name>"
+az account management-group subscription add --name <mg-yourname> --subscription "<subscription-name>"
  ```
  
 To remove a subscription, use the az account management-group subscription remove command:
 
 ```
-az account management-group subscription remove --name mg-yourname --subscription "My Demos"
+az account management-group subscription remove --name <mg-yourname> --subscription "My Demos"
  ```
  
 To remove a management group, run the az account management-group delete command:
