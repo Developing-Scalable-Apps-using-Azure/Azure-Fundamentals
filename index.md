@@ -412,3 +412,22 @@ B)To deploy Azure virtual machines to the company’s employees
 C)To ensure applications used by employees are updated as quickly as possible
 D)To supply on-demand development, testing, delivery, and management of software applications
 ```
+
+# Lab Exercise
+Provision an Azure Web App based on the below metadata using Azure CLI:
+
+```
+Resource Group: Week1-RG-01
+App Service Plan: wellsasp01
+Web App Name: <your-name>app01
+Command: az webapp create 
+
+-g Resource Group Name
+-n Web App Name
+-p App Service Plan Name 
+
+Browse the app:
+az webapp browse --name <your-name>app01 --resource-group Week1-RG-01
+
+```
+
