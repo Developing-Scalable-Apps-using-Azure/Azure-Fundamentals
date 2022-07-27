@@ -2,11 +2,11 @@
 
 This aassessment is composed up of the below sections:
 
-### Section 1 [30 Points]
+### Section 1 [10 Points]
 Multiple choice Questions
 
 ### Time Given
-1 Hour
+10 minutes
 
 ## Section 1 - MCQs
 
